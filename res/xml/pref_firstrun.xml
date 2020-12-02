@@ -1,0 +1,180 @@
+<PreferenceScreen xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+            android:key="pref_static_field_key"
+            android:selectable="false"
+            android:persistent="false"
+            android:summary="The app provides personalized feed on the basis of your fully configurable preferences. Unlike standard on/off configuration, you can set various levels of priority:"/>
+
+    <Preference
+            android:key="pref_static_field_key2"
+            android:selectable="false"
+            android:persistent="false"
+            android:summary="&lt;- the most left position (default) means not downloaded categories, more to the right means more frequent presence in your feed -&gt;"/>
+
+    <Preference
+            android:key="pref_static_field_key3"
+            android:selectable="false"
+            android:persistent="false"
+            android:summary="You can change it anytime later in Settings screen."/>
+
+    <PreferenceCategory
+            android:title="Choose your interests">
+
+        <SeekBarPreference
+                android:key="cat_animal%20behavior%20and%20cognition"
+                android:title="Animal behavior and cognition"
+                android:max="10"
+                android:defaultValue="0" />
+        <SeekBarPreference
+                android:key="cat_biochemistry"
+                android:title="Biochemistry"
+                android:max="10"
+                android:defaultValue="0" />
+        <SeekBarPreference
+                android:key="cat_bioengineering"
+                android:title="Bioengineering"
+                android:max="10"
+                android:defaultValue="0" />
+        <SeekBarPreference
+                android:key="cat_bioinformatics"
+                android:title="Bioinformatics"
+                android:max="10"
+                android:defaultValue="0" />
+        <SeekBarPreference
+                android:key="cat_biophysics"
+                android:title="Biophysics"
+                android:max="10"
+                android:defaultValue="0" />
+        <SeekBarPreference
+                android:key="cat_cancer%20biology"
+                android:title="Cancer biology"
+                android:max="10"
+                android:defaultValue="0" />
+        <SeekBarPreference
+                android:key="cat_cell%20biology"
+                android:title="Cell biology"
+                android:max="10"
+                android:defaultValue="0" />
+        <SeekBarPreference
+                android:key="cat_clinical%20trials"
+                android:title="Clinical trials"
+                android:max="10"
+                android:defaultValue="0" />
+        <SeekBarPreference
+                android:key="cat_developmental%20biology"
+                android:title="Developmental biology"
+                android:max="10"
+                android:defaultValue="0" />
+        <SeekBarPreference
+                android:key="cat_ecology"
+                android:title="Ecology"
+                android:max="10"
+                android:defaultValue="0" />
+        <SeekBarPreference
+                android:key="cat_epidemiology"
+                android:title="Epidemiology"
+                android:max="10"
+                android:defaultValue="0" />
+        <SeekBarPreference
+                android:key="cat_evolutionary%20biology"
+                android:title="Evolutionary biology"
+                android:max="10"
+                android:defaultValue="0" />
+        <SeekBarPreference
+                android:key="cat_genetics"
+                android:title="Genetics"
+                android:max="10"
+                android:defaultValue="0" />
+        <SeekBarPreference
+                android:key="cat_genomics"
+                android:title="Genomics"
+                android:max="10"
+                android:defaultValue="0" />
+        <SeekBarPreference
+                android:key="cat_immunology"
+                android:title="Immunology"
+                android:max="10"
+                android:defaultValue="0" />
+        <SeekBarPreference
+                android:key="cat_microbiology"
+                android:title="Microbiology"
+                android:max="10"
+                android:defaultValue="0" />
+        <SeekBarPreference
+                android:key="cat_molecular%20biology"
+                android:title="Molecular biology"
+                android:max="10"
+                android:defaultValue="0" />
+        <SeekBarPreference
+                android:key="cat_neuroscience"
+                android:title="Neuroscience"
+                android:max="10"
+                android:defaultValue="0" />
+        <SeekBarPreference
+                android:key="cat_paleontology"
+                android:title="Paleontology"
+                android:max="10"
+                android:defaultValue="0" />
+        <SeekBarPreference
+                android:key="cat_pathology"
+                android:title="Pathology"
+                android:max="10"
+                android:defaultValue="0" />
+        <SeekBarPreference
+                android:key="cat_pharmacology%20and%20toxicology"
+                android:title="Pharmacology and toxicology"
+                android:max="10"
+                android:defaultValue="0" />
+        <SeekBarPreference
+                android:key="cat_physiology"
+                android:title="Physiology"
+                android:max="10"
+                android:defaultValue="0" />
+        <SeekBarPreference
+                android:key="cat_plant%20biology"
+                android:title="Plant biology"
+                android:max="10"
+                android:defaultValue="0" />
+        <SeekBarPreference
+                android:key="cat_scientific%20communication"
+                android:title="Scientific communication and education"
+                android:max="10"
+                android:defaultValue="0" />
+        <SeekBarPreference
+                android:key="cat_synthetic%20biology"
+                android:title="Synthetic biology"
+                android:max="10"
+                android:defaultValue="0" />
+        <SeekBarPreference
+                android:key="cat_systems%20biology"
+                android:title="Systems biology"
+                android:max="10"
+                android:defaultValue="0" />
+        <SeekBarPreference
+                android:key="cat_zoology"
+                android:title="Zoology"
+                android:max="10"
+                android:defaultValue="0" />
+
+    </PreferenceCategory>
+
+    <Preference
+            android:key="pref_static_field_key4"
+            android:selectable="false"
+            android:persistent="false"
+            android:summary="   "/>
+
+    <Preference android:title="Save preferences"
+                android:key="buttonSavePreferences"
+                android:gravity="center_horizontal"
+                android:summary="Start the app"/>
+
+    <Preference
+            android:key="pref_static_field_key5"
+            android:selectable="false"
+            android:persistent="false"
+            android:summary="   "/>
+
+</PreferenceScreen>
